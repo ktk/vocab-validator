@@ -1,0 +1,5 @@
+@prefix custom: <http://example.org/custom/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://example.org/thing1> a custom:MyClass ;
+    custom:myProperty "Some value" .

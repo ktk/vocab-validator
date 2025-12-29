@@ -1,0 +1,26 @@
+{
+  "name": "vocab-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "validate": "node --loader ts-node/esm src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zazuko/env": "^3.0.1",
+    "@zazuko/env-node": "^3.0.0",
+    "@zazuko/prefixes": "^2.4.0",
+    "@zazuko/rdf-vocabularies": "^2023.1.19",
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
