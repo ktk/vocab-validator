@@ -1,0 +1,4 @@
+<http://example.org/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://example.org/s2> <http://xmlns.com/foaf/0.1/invalid-property> "This is a wrong property" .
+this is completely broken n-triples sequence
+<http://example.org/s3> <http://xmlns.com/foaf/0.1/name> "Valid Property Stream Continues" .
