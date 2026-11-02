@@ -103,6 +103,16 @@ pub fn update_vocabs() -> Result<()> {
         "http://www.w3.org/2002/07/owl#DatatypeProperty",
         "http://www.w3.org/2002/07/owl#ObjectProperty",
         "http://www.w3.org/2002/07/owl#AnnotationProperty",
+        // Property characteristics: vocabularies often type a term only with one of these
+        // (e.g. void:class is just an owl:FunctionalProperty), but each implies a property.
+        "http://www.w3.org/2002/07/owl#FunctionalProperty",
+        "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+        "http://www.w3.org/2002/07/owl#TransitiveProperty",
+        "http://www.w3.org/2002/07/owl#SymmetricProperty",
+        "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+        "http://www.w3.org/2002/07/owl#ReflexiveProperty",
+        "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+        "http://www.w3.org/2002/07/owl#DeprecatedProperty",
     ]
     .into_iter()
     .collect();
