@@ -4,6 +4,14 @@ A fast CLI tool that validates RDF files against standard ontologies. It checks 
 
 ## Install
 
+### Cargo
+
+```bash
+cargo install zazuko-rvv
+```
+
+The crate is called `zazuko-rvv`; the installed command is `rvv`.
+
 ### Homebrew
 
 ```bash

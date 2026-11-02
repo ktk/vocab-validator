@@ -1,7 +1,18 @@
 [package]
-name = "rvv"
+name = "zazuko-rvv"
 version = "0.1.0"
 edition = "2024"
+description = "Fast RDF vocabulary validator: checks every class and property IRI against well-known vocabularies (schema.org, OWL, SKOS, …)."
+license = "Apache-2.0"
+repository = "https://github.com/ktk/vocab-validator"
+homepage = "https://github.com/ktk/vocab-validator"
+readme = "README.md"
+keywords = ["rdf", "validation", "vocabulary", "schema-org", "cli"]
+categories = ["command-line-utilities"]
+
+[[bin]]
+name = "rvv"
+path = "src/main.rs"
 
 [dependencies]
 anyhow = "1.0.102"
